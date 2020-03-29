@@ -1,0 +1,112 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.background_image {
+  background-image: url(code-1500.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.logo-vertical {
+  width: 157px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content_image {
+  max-width: 100%;
+  margin: 12px 0;
+}
+
+.codeninja {
+  height: 529px;
+  background-color: #9D4A84;
+  color: white;
+  margin-bottom: 0;
+}
+
+.ninja {
+  max-height: 100px;
+}
+
+footer {
+  bottom: 0;
+  height: 306px;
+  position: relative;
+  color: white;
+  background-color: #374453;
+}
+
+.footer_logo {
+  max-height: 62px;
+  width: 260px;
+}
+
+.address span {
+  display: block;
+}
+
+.contact {
+  text-decoration: underline;
+}
+
+.row {
+  margin: 0;
+}
+
+@media screen and (min-width: 425px) {
+  .logo-vertical {
+    width: 190px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-vertical {
+    width: 257px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo-vertical {
+    width: 357px;
+  }
+
+  h1 {
+    margin-top: 164px;
+    margin-left: 140px;
+  }
+
+  .desk_woman {
+    height: 634px;
+    width: auto;
+    float: right;
+  }
+
+  .phone_man {
+    margin-top: 218px;
+  }
+
+  .about {
+    display: inline-block;
+  }
+
+  .description {
+    margin-top: 498px;
+    margin-left: 140px;
+  }
+
+  .address {
+    margin-left: 140px;
+  }
+}
